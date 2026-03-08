@@ -68,14 +68,14 @@ public class Mobil {
     }
 
     public void displayMessage(){
-    System.out.println("");
-    System.out.println("==========================");
-    System.out.println("Mobil anda bermerek " + manufaktur);
-    System.out.println("mempunyai nomor plat " + noPlat);
-    System.out.println("serta memililki warna " + warna);
-    System.out.println("dan mampu menempuh kecepatan " + kecepatan + " km/jam");
-    System.out.println("Mobil anda bisa menempuh perjalanan sejauh " + hitungJarak(kecepatan, waktu) + "km");
-    System.out.println("==========================");
+        System.out.println("");
+        System.out.println("==========================");
+        System.out.println("Mobil anda bermerek " + manufaktur);
+        System.out.println("mempunyai nomor plat " + noPlat);
+        System.out.println("serta memililki warna " + warna);
+        System.out.println("dan mampu menempuh kecepatan " + kecepatan + " km/jam");
+        System.out.println("Mobil anda bisa menempuh perjalanan sejauh " + hitungJarak(kecepatan, waktu) + "km");
+        System.out.println("==========================");
     }
 }
 
